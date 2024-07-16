@@ -23,16 +23,17 @@ body {
 #header-img {
     width: 25%;
     background-color: rgb(37, 52, 73);
-    border: solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.341);
+    border: 5px solid;
     border-radius: 50%;
-    border-color: rgb(37, 52, 73);
+    border-color: rgb(50, 69, 96);
 }
 
-.content-div {
+.content-div, .socials-sub-div {
     padding: 2%;
     border-radius: 30px;
     background-color: rgb(49, 67, 93);
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,4 +64,27 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
     border: 0;
+}
+
+.link {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: gainsboro;
+}
+
+#socials-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials-sub-div {
+    width: 100%;
+}
+
+#socials-ul {
+    text-align: left;
 }
