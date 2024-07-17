@@ -29,7 +29,9 @@ body {
     border-color: rgb(50, 69, 96);
 }
 
-.content-div, .socials-sub-div {
+.content-div,
+.socials-sub-div,
+#project-content-div {
     padding: 2%;
     border-radius: 30px;
     background-color: rgb(49, 67, 93);
@@ -46,7 +48,8 @@ body {
     text-align: center;
 }
 
-.content-title {
+.content-title,
+.project-title {
     margin-top: 10px;
     margin-bottom: 5px;
 }
@@ -61,12 +64,14 @@ body {
 }
 
 .content-separator-v {
+    width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
     border: 0;
 }
 
-.link {
+.link,
+#email {
     color: aliceblue;
     text-decoration: underline;
 }
@@ -87,4 +92,72 @@ body {
 
 #socials-ul {
     text-align: left;
+}
+
+#project-content-div {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.project-li {
+    flex: 0 0 calc(33.33% - 10px);
+    background-color: rgb(39, 55, 78);
+    border-radius: 30px;
+    padding: 2%;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.project-title {
+    text-align: center;
+    width: 100%;
+    margin: 5%;
+}
+
+.project-img {
+    width: 25%;
+}
+
+.project-links-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.project-button {
+    color: aliceblue;
+    text-decoration: none;
+    flex: 0 0 calc(50% - 2px);
+    box-sizing: border-box;
+    background-color: rgb(50, 69, 96);
+    margin: 1px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.project-button:hover {
+    background-color: rgb(65, 89, 123);
+}
+
+.project-button-div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
