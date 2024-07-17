@@ -1,6 +1,6 @@
 body {
     background-color: rgb(59, 79, 106);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
 }
 
@@ -47,7 +47,7 @@ footer {
 }
 
 .content-txt-div {
-    width: 50%;
+    width: 75%;
     display: grid;
     justify-content: center;
     text-align: center;
@@ -99,6 +99,10 @@ footer {
     flex: 1;
     padding: 16px;
     width: 50%;
+}
+
+.info-txt {
+    margin: 5px;
 }
 
 #project-content-div {
