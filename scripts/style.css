@@ -161,10 +161,16 @@ footer {
     margin: 1px;
     padding: 5px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .project-button:hover {
     background-color: rgb(65, 89, 123);
+}
+
+.project-button-txt {
+    color: aliceblue;
+    margin: 5px;
 }
 
 .link-div {
