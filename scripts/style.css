@@ -9,6 +9,13 @@ footer {
     text-align: center;
 }
 
+#floating-bottom-left-content {
+    position: fixed;
+    top: 93%;
+    left: 1%;
+    display: flex;
+}
+
 #content {
     width: 50%;
     padding-top: 1%;
@@ -152,7 +159,8 @@ footer {
     box-sizing: border-box;
 }
 
-.project-button {
+.project-button,
+#donate-button {
     color: aliceblue;
     text-decoration: none;
     flex: 0 0 calc(50% - 2px);
@@ -164,7 +172,8 @@ footer {
     border-radius: 10px;
 }
 
-.project-button:hover {
+.project-button:hover,
+#donate-button:hover {
     background-color: rgb(65, 89, 123);
 }
 
@@ -177,4 +186,9 @@ footer {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+#donate-button {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
 }
