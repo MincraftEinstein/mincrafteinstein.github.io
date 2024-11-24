@@ -150,6 +150,10 @@ footer {
 
 .project-img {
     width: 25%;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgb(50, 69, 96);
+    background-color: rgb(50, 69, 96);
 }
 
 .project-links-div {
